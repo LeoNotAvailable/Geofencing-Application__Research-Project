@@ -1,0 +1,120 @@
+English:
+
+
+	---GEOFENCING APPLICATION USAGE GUIDE---
+
+BY LEO SARRIA
+
+This application allows you to define virtual geographic areas and check, using a GPS receiver and an ESP32 STEAMakers microcontroller, whether your current position is inside or outside those areas.
+
+In this document you Will see a simple explanation of how to use every function of this interface.
+
+
+AREAS MANAGEMENT:
+
+Every element of an area can be seen in these elements:
+
+· Area name: Will show you the name of the area, or let you enter it when needed
+· Area points list: a non-editable textbox that shows every point an area is made of
+· Areas list: a list with every created area, it is automatically saved in the app file.
+· Delete, add and edit buttons
+
+To add an area, you must click that button, write a name that is not repeated, and define at least three points. Then, click save. You can cancel the action.
+
+In order to edit an area, the method is the same, but the name is set (although still editable) as well as some points. When canceled, the area returns to its last version.
+
+To delete areas, click the button -Delete-. Then you can click on whichever area you want to remove, and click accept in the confirmation message. Or remove them all at once.
+
+
+MAP USAGE:
+
+The map is interactive. When creating or editing an area, you can define points by right-clicking with the mouse, and clicking -Add Marker-. To remove one, just click on it.
+With the mouse wheel, you can adjust the map scale, and by dragging it, you can move it.
+
+It's important to understand that the map NEEDS AN INTERNET CONNECTION in order to work.
+
+
+BLUETOOTH AND SATELLITE CONNECTION, POSITION FIX:
+
+The color indicator shows the state of the bluetooth connection to the microcontroller or the satellite connection's quality:
+· Dark green: the bluetooth connection is established and the position is clear
+· Light green: the bluetooth connection is established and the position is nuclear
+· Yellow: the bluetooth connection is established but there's no position yet
+· Orange: there's no bluetooth connection and it's searching actively to establish it.
+· Red: the bluetooth connection search time has ended without success, so it stopped searching for it. you can restart the search by the -Reconnect- button.
+
+Once there's a position fix, you will see the values in the -Current Position- part. Then you will be able to center the view on the position.
+
+
+GEOFENCING APPLICATION:
+
+To start it, it needs a position fix and a selected area. It will check if the position is inside the area or not, and update the label consequently.
+
+
+LOG TERMINAL AND LOG FILE:
+
+The black terminal you can see on the bottom left of the application shows every message that is saved in the log file. You can view it by clicking its respective button.
+It is saved in the application directory.
+
+
+
+
+Català:
+
+
+
+---GUIA D'ÚS DE L'APLICACIÓ DE GEOFENCING---
+
+PER LEO SARRIA
+
+Aquesta aplicació permet definir àrees geogràfiques virtuals i comprovar, utilitzant un receptor GPS i un microcontrolador de STEAMakers ESP32, si la seva posició actual està dins o fora d'aquestes zones.
+
+En aquest document veureu una explicació senzilla de com utilitzar totes les funcions d'aquesta interfície.
+
+
+GESTIÓ D'ÀREES:
+
+Tots els elements d'una àrea es poden veure en aquests elements:
+
+· Nom de l'àrea: us mostrarà el nom de l'àrea, o us deixarà introduir-lo quan sigui necessari
+· Llista de punts d'àrea: un quadre de text no editable que mostra cada punt d'una àrea
+· Llista d'àrees: una llista amb cada àrea creada, es desa automàticament al fitxer de l'aplicació.
+· Suprimeix, afegeix i edita botons
+
+Per afegir una àrea, heu de fer clic en aquest botó, escriure un nom que no es repeteixi i definir almenys tres punts. Després, feu clic a Desa. Podeu cancel·lar l'acció.
+
+Per tal d'editar una àrea, el mètode és el mateix, però el nom està establert (tot i que encara editable) així com alguns punts. Quan es cancel·la, l'àrea torna a la seva última versió.
+
+Per a suprimir àrees, feu clic al botó -Suprimeix-. A continuació, podeu fer clic a qualsevol àrea que vulgueu eliminar i fer clic a Accepta en el missatge de confirmació. O eliminar-los tots alhora.
+
+
+ÚS DEL MAPA:
+
+El mapa és interactiu. En crear o editar una àrea, podeu definir els punts fent clic amb el botó dret del ratolí i fent clic a -Afegeix un marcador-. Per eliminar-ne un, només cal que hi feu clic.
+Amb la roda del ratolí, pots ajustar l'escala del mapa, i arrossegant-la, pots moure-la.
+
+És important entendre que el mapa necessita una connexió a Internet per poder funcionar.
+
+
+CONNEXIÓ BLUETOOTH I SATÈL·LIT, CORRECCIÓ DE POSICIÓ:
+
+L'indicador de color mostra l'estat de la connexió Bluetooth al microcontrolador o la qualitat de la connexió amb el satèl·lit:
+· Verd fosc: s'estableix la connexió Bluetooth i la posició és clara
+· Verd clar: s'estableix la connexió Bluetooth i la posició és nuclear
+· Groc: s'estableix la connexió Bluetooth però encara no hi ha posició
+· Taronja: no hi ha connexió Bluetooth i està buscant activament per establir-la.
+· Vermell: el temps de cerca de la connexió Bluetooth ha acabat sense èxit, de manera que ha deixat de cercar-lo. Podeu reiniciar la cerca amb el botó -Reconnecta-.
+
+Un cop hi hagi una posició fixa, veureu els valors a la part -Posició actual-. A continuació, podreu centrar la vista sobre la posició.
+
+
+APLICACIÓ DE GEOFENCING:
+
+Per iniciar-lo, necessita una posició fixa i una àrea seleccionada. Comprovarà si la posició està dins de l'àrea o no, i actualitzarà l'etiqueta en conseqüència.
+
+
+TERMINAL I FITXER DE REGISTRE:
+
+El terminal negre que podeu veure a la part inferior esquerra de l'aplicació mostra tots els missatges que es desen al fitxer de registre. Podeu veure-la fent clic al seu botó respectiu.
+Es desa al directori de l'aplicació.
+
