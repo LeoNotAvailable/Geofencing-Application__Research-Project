@@ -76,7 +76,7 @@ The final version of the application, functional and intuitive:
 <img width="898" height="820" alt="Final application" src="https://github.com/user-attachments/assets/0522e5ae-d46e-45bf-b227-1b18b297db2e" />
 
 
-In order of viewing some of the project materials, you can visit this [drive folder](https://drive.google.com/drive/folders/1t67lw22AGPEhrx539AiQmShMc4wpZvie?usp=sharing).
+In order of viewing some of the project materials, you can visit this [drive folder](https://drive.google.com/drive/folders/14fd29TNhFn_WSm0FIUOZBMj8jmpDANWM?usp=drive_link).
 
 
 
